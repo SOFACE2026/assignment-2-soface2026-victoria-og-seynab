@@ -8,16 +8,32 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
-struct Shoeshop {
-	int* shelf;
-	int size;
-};
+typedef struct {
+	int* shelf; // Pointer to an array representing the shelves
+	int size; // Size of the shop (number of shelves)
+} ShoeShop;
+
+// The constructor of the shop
+ShoeShop* new_ShoeShop(int size);
+
+//Destructor of the shop that frees memory
+void free_ShoeShop(ShoeShop* shop);
 
 //The function that adds items to the shop
-void add_items(int n, int m){
+void ShoeShop_add_items(ShoeShop* shop, int n, int m);
 
-}
+//The function that counts items in the shop
+int ShoeShop_count_items(ShoeShop* shop);
 
+//The function that clears a shelf in the shop
+void ShoeShop_clear(ShoeShop* shop, int row);
+//The function that checks if the item is in stock
+int ShoeShop_in_stock(ShoeShop* shop, int row);
+//The function that count the total items in the shop
+int ShoeShop_count_items(ShoeShop* shop);
+//The function that add items to the shop
+void ShoeShop_add_items(ShoeShop* shop, int row, int num);
 
 #endif
