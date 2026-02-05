@@ -45,6 +45,7 @@ int ShoeShop_count_items(ShoeShop* shop){
     return tot;
 }
 
+//Function that clears a row in the shop
 bool ShoeShop_clear(ShoeShop* shop, int row){
     bool rem = shop->shelf[row] > 0;
     shop->shelf[row] = 0;
