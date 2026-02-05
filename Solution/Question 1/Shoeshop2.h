@@ -16,6 +16,5 @@ void add_items(int n, int m){
 
 }
 
-/hhh
 
 #endif
