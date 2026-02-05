@@ -6,6 +6,12 @@
 // pointers in exactly the same order. 
 // A type cast to ’(Shop*)’ needs to be used to use a ShoeShop via a Shop pointer.
 
+#ifndef SHOEABS_H
+#define SHOEABS_H
+
+#include <stdbool.h>
+
+// Forward declaration of 
 
 
 

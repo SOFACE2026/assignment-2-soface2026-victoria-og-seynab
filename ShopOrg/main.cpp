@@ -10,6 +10,3 @@ int main() {
 		shop->clear(1);
 	}
 }
-
-//ll
-//111
