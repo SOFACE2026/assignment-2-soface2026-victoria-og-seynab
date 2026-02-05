@@ -36,5 +36,7 @@ bool ShoeShop_clear(ShoeShop* shop, int item);
 
 #endif
 
+#endif
+
 
 
