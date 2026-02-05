@@ -2,6 +2,7 @@
 
 #include <stdlib.h>
 #include "Shop.h"
+#include "ShoeAbs.h"
 #include <stdbool.h>
 
 // converting the :public Shop to C
