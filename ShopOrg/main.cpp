@@ -10,3 +10,5 @@ int main() {
 		shop->clear(1);
 	}
 }
+
+//lllll
