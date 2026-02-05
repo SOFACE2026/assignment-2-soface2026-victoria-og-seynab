@@ -26,7 +26,7 @@ void ShoeShop_add_items(ShoeShop* shop, int n, int m);
 
 
 //The function that clears a shelf in the shop
-void ShoeShop_clear(ShoeShop* shop, int row);
+bool ShoeShop_clear(ShoeShop* shop, int row);
 //The function that checks if the item is in stock
 int ShoeShop_in_stock(ShoeShop* shop, int row);
 //The function that count the total items in the shop
