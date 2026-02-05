@@ -24,8 +24,6 @@ void free_ShoeShop(ShoeShop* shop);
 //The function that adds items to the shop
 void ShoeShop_add_items(ShoeShop* shop, int n, int m);
 
-//The function that counts items in the shop
-int ShoeShop_count_items(ShoeShop* shop);
 
 //The function that clears a shelf in the shop
 void ShoeShop_clear(ShoeShop* shop, int row);
